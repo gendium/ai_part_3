@@ -31,41 +31,41 @@ def question2():
 
 
 def question3a():
-    answer_discount = None
-    answer_noise = None
-    answer_living_reward = None
+    answer_discount = .1
+    answer_noise = 0
+    answer_living_reward = .7
     return answer_discount, answer_noise, answer_living_reward
 
     # If not possible, return 'NOT POSSIBLE'
 
 def question3b():
-    answer_discount = None
-    answer_noise = None
-    answer_living_reward = None
+    answer_discount = .1
+    answer_noise = .1
+    answer_living_reward = .7
     return answer_discount, answer_noise, answer_living_reward
 
     # If not possible, return 'NOT POSSIBLE'
 
 def question3c():
-    answer_discount = None
-    answer_noise = None
-    answer_living_reward = None
+    answer_discount = .5
+    answer_noise = 0
+    answer_living_reward = .5
     return answer_discount, answer_noise, answer_living_reward
 
     # If not possible, return 'NOT POSSIBLE'
 
 def question3d():
-    answer_discount = None
-    answer_noise = None
-    answer_living_reward = None
+    answer_discount = .9
+    answer_noise = .1
+    answer_living_reward = .2
     return answer_discount, answer_noise, answer_living_reward
 
     # If not possible, return 'NOT POSSIBLE'
 
 def question3e():
-    answer_discount = None
-    answer_noise = None
-    answer_living_reward = None
+    answer_discount = 0
+    answer_noise = 0
+    answer_living_reward = 0
     return answer_discount, answer_noise, answer_living_reward
 
     # If not possible, return 'NOT POSSIBLE'
@@ -73,8 +73,8 @@ def question3e():
 def question6():
     answer_epsilon = None
     answer_learning_rate = None
-    return answer_epsilon, answer_learning_rate
     # If not possible, return 'NOT POSSIBLE'
+    return 'NOT POSSIBLE'
 
 if __name__ == '__main__':
     print('Answers to analysis questions:')
