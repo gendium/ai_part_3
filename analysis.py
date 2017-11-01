@@ -26,7 +26,7 @@ Pieter Abbeel (pabbeel@cs.berkeley.edu).
 
 def question2():
     answer_discount = 0.9
-    answer_noise = 0.2
+    answer_noise = 0.0
     return answer_discount, answer_noise
 
 
